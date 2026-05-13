@@ -3,10 +3,10 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <IsPackable>false</IsPackable>
-    <Configurations>Debug;Release;Coverage</Configurations>
+    <Configurations>Debug;Release</Configurations>
     <IsTestProject>true</IsTestProject>
     <LangVersion>10.0</LangVersion>
-    <DocumentationFile>DocXmlUnitTests.xml</DocumentationFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

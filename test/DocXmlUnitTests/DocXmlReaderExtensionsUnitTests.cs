@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using System.Linq;
 using System.Reflection;
-using System.Text;
-using DocXmlOtherLibForUnitTests;
 using DocXmlUnitTests.TestData.Reflection;
 using LoxSmoke.DocXml.Reflection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;

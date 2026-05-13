@@ -153,6 +153,11 @@ namespace LoxSmoke.DocXml
             return comments;
         }
 
+        /// <summary>
+        /// Gets all seealso tags from the specified XML node.
+        /// </summary>
+        /// <param name="node">The XML navigator node to extract seealso tags from.</param>
+        /// <returns>A list of seealso tags containing references and descriptions.</returns>
         public List<SeeAlsoTag> GetSeeAlsoTags(XPathNavigator node)
         {
             var list = new List<SeeAlsoTag>();
@@ -441,6 +446,13 @@ namespace LoxSmoke.DocXml
             return new InheritdocTag() { Cref = inheritdoc.First().Name };
         }
 
+
+        /// <summary>
+        /// Determines whether a comment needs to resolve inherited documentation.
+        /// Returns true if the comment has an inheritdoc tag but has no actual content (Summary, Remarks, or Example).
+        /// </summary>
+        /// <param name="comments">The comments to check for inherited documentation resolution.</param>
+        /// <returns>True if the comment needs to resolve inherited documentation; otherwise, false.</returns>
         private bool NeedsResolving(CommonComments comments)
         {
             return comments?.Inheritdoc != null &&

@@ -1,4 +1,5 @@
 # DocXml - C# XML documentation reader 
+> ⭐ **Using this package?** Please consider starring the repository to support the project and help others discover it.
 
 [![Build and test](https://github.com/loxsmoke/DocXml/actions/workflows/BuildAndTest.yml/badge.svg)](https://github.com/loxsmoke/DocXml/actions/workflows/BuildAndTest.yml)
  [![codecov](https://codecov.io/gh/loxsmoke/docxml/branch/master/graph/badge.svg)](https://codecov.io/gh/loxsmoke/docxml) [![NuGet version](https://badge.fury.io/nu/LoxSmoke.DocXml.svg)](https://badge.fury.io/nu/LoxSmoke.DocXml) [![NuGet](https://img.shields.io/nuget/dt/LoxSmoke.DocXml.svg)](https://www.nuget.org/packages/LoxSmoke.DocXml) 
